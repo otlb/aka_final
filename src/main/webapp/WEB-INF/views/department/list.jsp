@@ -30,7 +30,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Dashboard - Analytics | Sneat - Bootstrap 5 HTML Admin Template - Pro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
     <meta name="description" content="" />
     <script src="/assets/vendor/js/helpers.js"></script>
     <script src="/assets/js/config.js"></script>
@@ -55,14 +58,13 @@
 
           <!-- / Navbar -->
 
-          <!-- Content wrapper -->
-          <div class="content-wrapper">
-            <!-- Content -->
+          <!-- Content wrapper -->         
+            <!-- Content -->            
+			 <div id="jstree"></div>
+			
 
 
-
-
-			<c:import url="../temp/body.jsp"></c:import>
+			
             <!-- / Content -->
 
            
@@ -87,7 +89,11 @@
         >naver</a
       >
     </div>
-
+	<!-- jstree -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+	<script src="/js/department/list.js"></script>
+	
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
     <script src="/assets/vendor/libs/jquery/jquery.js"></script>

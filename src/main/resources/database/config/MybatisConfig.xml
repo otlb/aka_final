@@ -6,5 +6,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 <configuration>
 	<typeAliases>
 	<typeAlias type="java.lang.String" alias="String" />
+	<typeAlias type="com.aka.app.hrm.HrmVO" alias="HrmVO"/>
+	
 	</typeAliases>
 </configuration>
